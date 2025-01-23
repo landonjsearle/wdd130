@@ -38,15 +38,13 @@ article {
     background: none;
     top: 500px;
     left: 200px;
+    background-color: var(--secondary-color);
+    opacity: 80%;
 }
 article img {
     float: right;
     width: 150px;
     height: auto;
-}
-article p {
-    background-color: black;
-    opacity: 80%;
 }
 h2 {
     color: var(--accent2-color);
@@ -61,6 +59,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    background: none;
 }
 
 .socal {
