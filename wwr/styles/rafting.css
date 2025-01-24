@@ -8,14 +8,13 @@
     background-color: var(--secondary-color);
     margin: 10px;
 }
-div .hero {
+div.hero {
     position: relative;
 }
 
 h1 {
     color: var(--primary-color);
-    padding: 10px;
-    margin: 10px;
+    padding: 0px;
     text-align: center;
     font-size: 80px;
     font-family: "Knewave", serif;
@@ -23,28 +22,30 @@ h1 {
     font-style: normal;
     background: none;
     position: absolute;
-    text-align: center;
-    top: 250px;
-    left: 25%;
+    top: 20px;
+    width: 100%;
+    background-color: black;
+    opacity: 80%;
 }
- div img {
+ img#hero {
     display: block;
     width: 100%;
     height: auto;
 } 
 article {
-    width: 75%;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
     position: absolute;
     background: none;
-    top: 500px;
-    left: 200px;
+    top: 50%;
     background-color: var(--secondary-color);
     opacity: 80%;
 }
 article img {
     float: right;
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: 80%;
 }
 h2 {
     color: var(--accent2-color);
