@@ -6,12 +6,36 @@
 }
 * {
     background-color: var(--secondary-color);
-    margin: 10px;
+    margin: 0;
+    padding: 0;
 }
 div.hero {
     position: relative;
 }
-
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+header img {
+    grid-column-start: 2;
+    border: solid 5px tan;
+    box-shadow: 0px 0px 10px black;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    grid-column-start: 3;
+    background-color: lightgrey;
+    box-shadow: 5px 3px 20px  black;
+    border: solid grey;
+    padding: 10px;
+}
+nav a {
+    background: none;
+}
 h1 {
     color: var(--primary-color);
     padding: 0px;
@@ -37,7 +61,6 @@ article {
     height: 30%;
     margin-left: 10%;
     position: absolute;
-    background: none;
     top: 50%;
     background-color: var(--secondary-color);
     opacity: 80%;
@@ -45,7 +68,7 @@ article {
 article img {
     float: right;
     width: auto;
-    height: 80%;
+    height: 100%;
 }
 h2 {
     color: var(--accent2-color);
@@ -61,9 +84,52 @@ p {
     font-style: normal;
     font-size: 20px;
     background: none;
+    margin: 10px;
+}
+.history {
+    display: flex;
+    align-items: center;
+}
+section h2 {
+    text-align: center;
+}
+.history img {
+    width: 400px;
+}
+.adventure {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    margin: 10px;
+}
+.adventure img{
+    max-width: 300px;
+    max-height: 300px;
+}
+figure {
+    background-color: tan;
+    border: gray solid 2px;
+    box-shadow: 0px 0px 10px black;
+    margin: 10px;
+}
+figcaption {
+    text-align: center;
+    color: var(--accent1-color);
+    background: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    width: 100%;
+    height: 100px;
+}
 .socal {
+    background: none;
     text-decoration: none;
     width: 30px;
     height: auto;
