@@ -76,6 +76,8 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
+    margin: 1dvi;
+    text-align: center;
 }
 p {
     color: var(--accent1-color);
@@ -84,7 +86,7 @@ p {
     font-style: normal;
     font-size: 20px;
     background: none;
-    margin: 10px;
+    margin: 20px;
 }
 .history {
     display: flex;
@@ -115,7 +117,7 @@ figure {
 }
 figcaption {
     text-align: center;
-    color: var(--accent1-color);
+    color: black;
     background: none;
 }
 
@@ -125,12 +127,71 @@ footer {
     align-items: center;
     justify-content: space-between;
     background-color: lightgray;
+    color: black;
     width: 100%;
     height: 100px;
 }
+footer p {
+    color: black;
+}
 .socal {
-    background: none;
+    background-color: lightgray;
     text-decoration: none;
     width: 30px;
     height: auto;
+}
+#map {
+    margin: 20px;
+    border: none;
+    float: right;
+}
+section.company-info {
+    display: flex;
+    justify-content: center;
+}
+section.employee {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+section.employee img {
+    width: 100px;
+    height: auto;
+}
+section.employee div.line {
+    border-right: 1px solid black;
+}
+.form {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-family: "Zain", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+form {
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px black;
+}
+fieldset {
+    padding: 5px;
+}
+textarea {
+    width: 75%;
+}
+#submit {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--accent1-color);
+}
+#submit:hover {
+    background-color: #83603c;
+}
+fieldset, label, input, legend {
+    background: none;
 }
