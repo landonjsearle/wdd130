@@ -184,12 +184,13 @@ fieldset {
 textarea {
     width: 75%;
 }
-#submit {
+button {
     width: 100%;
     height: 3rem;
     background-color: var(--accent1-color);
+    color: var(--secondary-color);
 }
-#submit:hover {
+button:hover {
     background-color: #83603c;
 }
 fieldset, label, input, legend {
